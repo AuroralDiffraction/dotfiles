@@ -1,0 +1,17 @@
+" Main vimrc that sources the other vimrc files
+
+source $HOME\dotfiles\vimrc\general.vimrc
+source $HOME\dotfiles\vimrc\key.vimrc
+source $HOME\dotfiles\vimrc\plug.vimrc
+source $HOME\dotfiles\vimrc\plugins.vimrc
+source $HOME\dotfiles\vimrc\functions.vimrc
+
+
+
+
+
+
+
+
+
+

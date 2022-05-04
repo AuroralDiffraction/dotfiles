@@ -9,5 +9,4 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'vimwiki/vimwiki'
-Plug 'svermeulen/vim-easyclip'
 call plug#end()

@@ -34,8 +34,5 @@ set expandtab
 " Font
 set guifont=Consolas:h15
 
-" No backup
-:set nobackup
-
 " Vim with all enhancements
 source $VIMRUNTIME/vimrc_example.vim

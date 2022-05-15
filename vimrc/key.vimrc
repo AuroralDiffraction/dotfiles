@@ -13,6 +13,8 @@ let mapleader=","
 map <leader>t :NERDTreeToggle<CR>
 map <leader>n :bn<CR>
 map <leader>m :bp<CR>
+map <leader>d :bd<CR>
 map <leader>w :w<CR>
 map <leader>f :FZF<CR>
 map <leader>p <ESC>"*p
+

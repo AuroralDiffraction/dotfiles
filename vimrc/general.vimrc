@@ -34,8 +34,10 @@ set expandtab
 " Font
 set guifont=Consolas:h15
 
-" No backup
-:set nobackup
+" Backup and swap files
+set backupdir=~/temp/.vim/.backup//
+set directory=~/temp/.vim/.swap//
+set undodir=~/temp/.vim/.undo//
 
 " Vim with all enhancements
 source $VIMRUNTIME/vimrc_example.vim

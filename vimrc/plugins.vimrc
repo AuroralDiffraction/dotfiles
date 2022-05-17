@@ -17,6 +17,10 @@ au BufNewFile ~/vimwiki/diary/*.md
       \ "## Todo", "- [ ] ", "",
       \ "## Notes", "" ])
 
+" Gitgutter
+set updatetime=100
+"let g:gitgutter_set_sign_backgrounds = 1
+highlight! link SignColumn LineNr
 
 " Syntastic
 set statusline+=%#warningmsg#

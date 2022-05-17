@@ -16,5 +16,9 @@ map <leader>m :bp<CR>
 map <leader>d :bd<CR>
 map <leader>w :w<CR>
 map <leader>f :FZF<CR>
-map <leader>p <ESC>"*p
-
+map <leader>p o<ESC>"*p
+map <leader>j :tabn<CR>
+map <leader>k :tabp<CR>
+map <leader>l :tabnew<CR>
+map <leader>h :tabclose<CR>
+"

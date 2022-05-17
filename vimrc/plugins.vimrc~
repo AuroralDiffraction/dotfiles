@@ -17,6 +17,10 @@ au BufNewFile ~/vimwiki/diary/*.md
       \ "## Todo", "- [ ] ", "",
       \ "## Notes", "" ])
 
+" Gitgutter
+set updatetime=100
+"let g:gitgutter_set_sign_backgrounds = 0
+highlight! link SignColumn LineNr
 
 " Syntastic
 set statusline+=%#warningmsg#
@@ -28,4 +32,4 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 1
 let g:syntastic_verilog_checkers = ['iverilog']
-let g:SyntasticToggleMode
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }

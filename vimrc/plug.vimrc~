@@ -15,5 +15,5 @@ Plug 'vimwiki/vimwiki'
 Plug 'svermeulen/vim-easyclip'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'valloric/youcompleteme'
-Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 call plug#end()

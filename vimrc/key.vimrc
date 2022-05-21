@@ -6,7 +6,8 @@ set timeoutlen=500 " Set timeout length to 500 ms
 inoremap kj <Esc>
 inoremap <C-v> <ESC>"+pa
 vnoremap <C-c> "+y
-vnoremap <C-d> "+d
+vnoremap <C-d> "+d 
+nnoremap ; :
 
 " Leader key settings
 let mapleader=","
@@ -21,4 +22,4 @@ map <leader>j :tabn<CR>
 map <leader>k :tabp<CR>
 map <leader>l :tabnew<CR>
 map <leader>h :tabclose<CR>
-"
+

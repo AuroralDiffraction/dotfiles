@@ -22,4 +22,4 @@ map <leader>j :tabn<CR>
 map <leader>k :tabp<CR>
 map <leader>l :tabnew<CR>
 map <leader>h :tabclose<CR>
-
+map <leader>g :G

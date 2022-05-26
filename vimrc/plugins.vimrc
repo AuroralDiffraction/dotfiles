@@ -33,3 +33,11 @@ let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 1
 let g:syntastic_verilog_checkers = ['iverilog']
 let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }
+
+" Easyclip
+" Remove default mapping of m to x
+let g:EasyClipUseCutDefaults = 0
+nmap x <Plug>MoveMotionPlug 
+xmap x <Plug>MoveMotionXPlug 
+nmap xx <Plug>MoveMotionLinePlug
+

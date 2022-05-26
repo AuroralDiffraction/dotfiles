@@ -15,6 +15,7 @@ autocmd vimenter * ++nested colorscheme gruvbox
 :set guioptions-=T
 :set guioptions-=m
 :set guioptions-=r
+:set guioptions-=L
 
 " For some plugins to work correctly
 set nocompatible

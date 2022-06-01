@@ -5,6 +5,13 @@ let NERDTreeQuitOnOpen=1
 
 " vim-airline
 let g:airline#extensions#tabline#enabled = 1 " Enable the list of buffers
+let g:airline#extensions#vimtex#enabled = 1 
+let g:airline#extensions#vimtex#compiled = "c₁"
+let g:airline#extensions#vimtex#sub_main = "m"
+let g:airline#extensions#vimtex#main = ""
+
+
+
 
 " VimWiki 
 " Set VimWiki to markdown
@@ -41,3 +48,6 @@ nmap x <Plug>MoveMotionPlug
 xmap x <Plug>MoveMotionXPlug 
 nmap xx <Plug>MoveMotionLinePlug
 
+" VimTex
+" Disable continuous compiling
+let g:vimtex_compiler_latexmk = {'continuous': 0}

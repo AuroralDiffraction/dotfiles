@@ -17,4 +17,5 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'valloric/youcompleteme'
 Plug 'airblade/vim-gitgutter'
 Plug 'lervag/vimtex'
+Plug 'easymotion/vim-easymotion'
 call plug#end()

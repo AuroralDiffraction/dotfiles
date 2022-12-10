@@ -18,4 +18,9 @@ Plug 'valloric/youcompleteme'
 Plug 'airblade/vim-gitgutter'
 Plug 'lervag/vimtex'
 Plug 'easymotion/vim-easymotion'
+" Track the engine.
+Plug 'sirver/ultisnips'
+" Snippets are separated from the engine. Add this if you want them:
+Plug 'honza/vim-snippets'
+Plug 'davidhalter/jedi-vim'
 call plug#end()

@@ -10,8 +10,18 @@ let g:airline#extensions#vimtex#compiled = "c₁"
 let g:airline#extensions#vimtex#sub_main = "m"
 let g:airline#extensions#vimtex#main = ""
 
+"ultiSnip Trigger configuration. You need to change this to something other than <tab> if you use one of the following:
+" - https://github.com/Valloric/YouCompleteMe
+" - https://github.com/nvim-lua/completion-nvim
+    let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
 
+" Use both `UltiSnips` and `MySnippets` as snippet directories
+ let g:UltiSnipsSnippetDirectories=["$HOME/vimfiles/plugged/vim-snippets/UltiSnips", "$HOME/vimfiles/plugged/vim-snippets/MySnippets"]
 
 " VimWiki 
 " Set VimWiki to markdown

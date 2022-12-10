@@ -32,6 +32,12 @@ set expandtab
 :set number
 :set relativenumber
 
+"set encoding
+set encoding=utf-8
+set fileencodings=utf-8,gb18030,gbk
+set fileencoding=utf-8
+set termencoding=chinese
+
 " Font
 set guifont=Consolas:h15
 

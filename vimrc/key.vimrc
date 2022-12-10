@@ -39,5 +39,8 @@ map <leader>j :tabn<CR>
 map <leader>k :tabp<CR>
 map <leader>l :tabnew<CR>
 map <leader>h :tabclose<CR>
+map <leader>q :q<CR>
 map <leader>g :G
 map <leader>b :ls<CR>:b<Space>
+" Change directory to current path
+nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>

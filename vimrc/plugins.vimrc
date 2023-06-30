@@ -17,11 +17,30 @@ let g:airline#extensions#vimtex#main = ""
 let g:UltiSnipsJumpForwardTrigger="<c-j>"
 let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
+" Coc
+" use <tab> to trigger completion and navigate to the next complete item
+function! CheckBackspace() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+inoremap <silent><expr> <Tab>
+     \ coc#pum#visible() ? coc#pum#next(1) :
+     \ CheckBackspace() ? "\<Tab>" :
+     \ coc#refresh()
+
+let g:coc_snippet_next = '<tab>'
+imap <C-j> <Plug>(coc-snippets-expand-jump)
+
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 
 " Use both `UltiSnips` and `MySnippets` as snippet directories
  let g:UltiSnipsSnippetDirectories=["$HOME/vimfiles/plugged/vim-snippets/UltiSnips", "$HOME/vimfiles/plugged/vim-snippets/MySnippets"]
+
+" Spell check using Coc-spell-checker
+vmap <leader>a <Plug>(coc-codeaction-selected)
+nmap <leader>a <Plug>(coc-codeaction-selected)
 
 " VimWiki 
 " Set VimWiki to markdown

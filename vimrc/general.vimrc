@@ -4,8 +4,15 @@
 set langmenu=en_US
 let $LANG = 'en_US'
 
+" Soft line wrap and no auto line break insertion
+:set wrap linebreak
+:set tw=0
+
 " Encoding
 set encoding=utf-8
+
+" Python 3.9 support
+set pythonthreedll =python39.dll
 
 " Set colorscheme to Gruvbox
 autocmd vimenter * ++nested colorscheme gruvbox
@@ -31,6 +38,8 @@ set expandtab
 " Line numbers
 :set number
 :set relativenumber
+
+
 
 "set encoding
 set encoding=utf-8
